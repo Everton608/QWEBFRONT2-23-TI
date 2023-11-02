@@ -1,0 +1,47 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+h1{
+    color: #ffff00;
+}
+.div-a1{
+    background:linear-gradient(#ff0000 ,  #0000ff);
+}
+.div-a2{
+    background:radial-gradient(#fffb00 ,  #00ff1a);
+}
+.div-a3{
+    background:linear-gradient(#00ff1a ,  #ff00c8);
+}
+
+.div-b1{
+    background-color: #ffc0cb ;
+}
+.div-b2{
+    background-color: #800080 ;
+}
+.div-c1{
+    background-image: url("../Imagens/fundoexercicio1.jpg");
+}
+.div-c2{
+    background-image: url("../Imagens/fundoexercicio2.png");
+}
+.div-c3{
+    background-image: url("../Imagens/fundoexercicio3.jpg");
+}
+.div-c4{
+    background-image: url("../Imagens/fundosite.jpg");
+}
+.body-1{
+    background-color: #000000;
+}
+.body-2{
+    background-color: #00f;
+}
+.body-3{
+    background-color: #800080;
+}
+.link-b{
+    color:#ff0000;
+}

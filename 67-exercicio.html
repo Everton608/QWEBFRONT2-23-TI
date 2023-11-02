@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: blue;
+            padding: 15px;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+        }
+
+        .amarela1,
+        .amarela2,
+        .amarela3 {
+            height: 180px;
+            background-color: rgb(255, 255, 0);
+            display: flex;
+
+        }
+
+        .amarela1 {
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .amarela2 {
+            justify-content: center;
+            align-items: center;
+        }
+
+        .amarela3 {
+            justify-content: flex-end;
+            align-items: end;
+        }
+
+        .azul {
+            width: 80px;
+            height: 80px;
+            background-color: rgb(0, 0, 255);
+            margin: 10px;
+        }
+    </style>
+
+    <title>Exercicio-67</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="amarela1">
+            <div class="azul"></div>
+            <div class="azul"></div>
+            <div class="azul"></div>
+        </div>
+
+        <div class="amarela2">
+            <div class="azul"></div>
+            <div class="azul"></div>
+            <div class="azul"></div>
+
+        </div>
+        <div class="amarela3">
+            <div class="azul"></div>
+            <div class="azul"></div>
+            <div class="azul"></div>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>

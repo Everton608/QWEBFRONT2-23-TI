@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    box-sizing: border-box;
+    color: #FFF;
+}
+body{
+    background-image: url("imagens/pexels-anni-roenkae-2156881.jpg");
+}
+nav{
+    background: linear-gradient(#FFF, #000);
+    color: blue;
+    margin-bottom: 25px;
+    border-radius: 20px;
+    height: 40px;
+}
+a{
+    margin-right: 30px;
+    background-color:red;
+    padding: 4px;
+    border-radius: 30px;
+    color: #fff;
+}
+div{
+    border-radius: 20px;
+    background: linear-gradient(#00000080, #ffffff93);
+    margin-bottom: 25px;
+    border-style:solid;
+}
+ol{
+    background:linear-gradient(to-left#000, #fff);
+    padding: 25px;
+}
+img{
+    border-radius: 20px;
+}
